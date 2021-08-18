@@ -7,7 +7,7 @@
  * @returns 
  */
 function numDecodings(s: string): number {
-  const dp = new Array(s.length+1);
+  const dp = new Array<number>(s.length+1);
   dp[s.length] = 1;
   dp[s.length-1] = s[s.length-1] === '0' ? 0 : 1;
   
