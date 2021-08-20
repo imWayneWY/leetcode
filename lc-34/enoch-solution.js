@@ -1,5 +1,5 @@
 function lowerBound(nums, target) {
-  let l = 1,
+  let l = 0,
     r = nums.length;
   while (l < r) {
     let m = parseInt(l + (r - l) / 2);
@@ -13,7 +13,7 @@ function lowerBound(nums, target) {
 }
 
 function upperBound(nums, target) {
-  let l = 1,
+  let l = 0,
     r = nums.length;
   while (l < r) {
     let m = parseInt(l + (r - l) / 2);
