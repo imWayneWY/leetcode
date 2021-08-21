@@ -1,3 +1,4 @@
+import {TreeNode} from '../utils/tree-node';
 /**
  * 就是遍历+build tree
  * @param n 
