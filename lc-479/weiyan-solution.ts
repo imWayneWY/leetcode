@@ -19,7 +19,7 @@ function largestPalindrome(n: number): number {
     for (let i = max; i > min; i--) {
       let j = Number(candidate / BigInt(i));
 
-      if (j > i) 
+      if (j > i) {
         break;
       }
 
@@ -29,3 +29,4 @@ function largestPalindrome(n: number): number {
     }
   }
 };
+
